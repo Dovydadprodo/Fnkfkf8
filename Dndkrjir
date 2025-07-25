@@ -64,8 +64,6 @@ getgenv().Config = {
         ["Fruit"] = {
             ["Enabled"] = true,
             ["Avoid Fruit"] = {
-                "Portal-Portal",
-                "Kitsune-Kitsune"
             }
         }
     },
@@ -101,14 +99,14 @@ getgenv().Config = {
             }
         },
         ["Blox Fruit"] = {
-            Enable = false,
+            Enable = true,
             Delay = 0.4,
             Skills = {
                 Z = {Enable = true, HoldTime = 0.1},
                 X = {Enable = true, HoldTime = 0.1},
                 C = {Enable = true, HoldTime = 0.15},
                 V = {Enable = true, HoldTime = 0.2},
-                F = {Enable = true, HoldTime = 0.1}
+                F = {Enable = false, HoldTime = 0.1}
             }
         }
     }
